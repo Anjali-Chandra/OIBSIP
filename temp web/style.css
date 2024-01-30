@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url('https://www.freepik.com/free-photo/3d-render-thermometer-show-hot-cold-temperature_35884337.htm#query=temperature%20converter&position=26&from_view=keyword&track=ais&uuid=0e71b0f3-ba2a-47c7-83f4-21d44c7248f9');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+#temperature, #unit {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#convert {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+}
